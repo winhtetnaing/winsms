@@ -14,7 +14,7 @@ var csrf_guid = Guid.raw();
 const api_version = 'v1.0';
 
 const app_id = '1835755086551205';
-const app_secret = '3689f7f4e0e80370b0fe2db2180ab303';
+const app_secret = 'd339557c9db91b9cd729f02eb2d0d050';
 
 const me_endpoint_base_url = 'https://graph.accountkit.com/v1.0/me';
 const token_exchange_base_url = 'https://graph.accountkit.com/v1.0/access_token';
