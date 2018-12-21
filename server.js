@@ -14,7 +14,7 @@ var csrf_guid = Guid.raw();
 const api_version = 'v1.0';
 
 const app_id = '307807109951843';
-const app_secret = 'ab3a095b5b5f38c830f6b6a5937159ac';
+const app_secret = '7a308769c4522b42b198338708401af4';
 
 const me_endpoint_base_url = 'https://graph.accountkit.com/v1.0/me';
 const token_exchange_base_url = 'https://graph.accountkit.com/v1.0/access_token';
@@ -30,7 +30,7 @@ app.get('/', function(request, response){
     csrf: csrf_guid,
     version: account_kit_api_version,
   };
-
+console.log(view);
   var html = Mustache.to_html(loadLogin(), view);
   response.send(html);
 });
