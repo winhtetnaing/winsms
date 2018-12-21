@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 var csrf_guid = Guid.raw();
 const api_version = 'v1.0';
 
-const app_id = process.env.FACEBOOK_APP_ID || '307807109951843';
-const app_secret = process.env.FACEBOOK_ACCOUNT_KIT_SECRET || '7a308769c4522b42b198338708401af4';
+const app_id = process.env.FACEBOOK_APP_ID || '1835755086551205';
+const app_secret = process.env.FACEBOOK_ACCOUNT_KIT_SECRET || '3689f7f4e0e80370b0fe2db2180ab303';
 
 const me_endpoint_base_url = 'https://graph.accountkit.com/v1.0/me';
 const token_exchange_base_url = 'https://graph.accountkit.com/v1.0/access_token';
