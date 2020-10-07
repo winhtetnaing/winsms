@@ -22,7 +22,7 @@ const token_exchange_base_url = 'https://graph.accountkit.com/v1.0/access_token'
 const account_kit_api_version = api_version;
 
 function loadLogin() {
-  return fs.readFileSync('dist/login.html').toString();
+  return fs.readFileSync('dist/index.html').toString();
 }
 
 app.get('/', function(request, response){
